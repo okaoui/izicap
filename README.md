@@ -13,3 +13,10 @@ IziCap API provides endpoints to retrieve company information based using SIRET 
 7. **Unit and Integration Tests** for Controller
 
 ## How to use the API:
+1. Clone repository.
+2. In the application.properties file change property **local.storage.dir** to an appropriate path in docker container.
+3. Change server.port if needed
+4. If Docker installed, inside the project directory run: **docker build .**
+5. Run docker run -p <your-port-external>:<docker-internal-port-exposed-for-access> IMAGE_ID
+6. To request the API, use the Swagger documentation http://192.168.99.100:<your-port-external>/izicap-api/swagger-ui/index.html
+  
