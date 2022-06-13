@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.homework</groupId>
 	<artifactId>izicap</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>izicap</name>
 	<description>Fetch company information by SIRET number</description>
 	<properties>
@@ -19,7 +19,7 @@
 	<scm>
 		<connection>scm:git:https://github.com/okaoui/izicap.git</connection>
 		<developerConnection>scm:git:https://github.com/okaoui/izicap.git</developerConnection>
-	  <tag>izicap-0.0.1</tag>
+	  <tag>HEAD</tag>
   </scm>
 	<dependencies>
 		<dependency>
