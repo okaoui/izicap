@@ -21,5 +21,7 @@ IziCap API provides endpoints to retrieve company information based using SIRET 
 6. If Docker installed, inside the project directory run: **docker build .**
 7. Run docker run -p <your-port-external>:<docker-internal-port-exposed-for-access> IMAGE_ID
 8. To request the API, use the Swagger documentation http://192.168.99.100:<your-port-external>/izicap-api/swagger-ui/index.html (Change IP address)
+  
+Please note the Jenkinsfile is added but it was not adjusted to run on this project.
 
   
