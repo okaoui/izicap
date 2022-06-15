@@ -1,4 +1,4 @@
-package com.homework.izicap;
+package com.homework.izicap.controller;
 
 import com.homework.izicap.config.ApiConfig;
 import org.assertj.core.api.Assertions;
@@ -9,9 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Import;
-import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
@@ -20,7 +18,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest
 @AutoConfigureMockMvc
 @Import(ApiConfig.class)
-class IzicapApplicationTests {
+class EtabControllerTests {
 
     private static final String PATH = "/etablissement";
     private static final String EXIST_SIRET_NUMBER="41339442000033";
