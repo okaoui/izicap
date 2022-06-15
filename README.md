@@ -10,7 +10,7 @@ IziCap API provides endpoints to retrieve company information based using SIRET 
 4. **Use of Async tasks**  using annotations `@EnableAsync` and `@Async` to make parallel calls using RestTemplate 
 5. **API Documentation** using Spring OpenAPI and Swagger configuration using `ApiConfig`
 6. **Boilerplate Code** generation using `Lombok` annotations such as `@AllArgsConstructor` `@ToString`, `@Getters`, and `@Setters`
-7. **Unit and Integration Tests** for Controller
+7. **Unit and Integration Tests** for Controller and Service layer
 
 ## How to use the API:
 1. Clone repository.
